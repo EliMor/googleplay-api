@@ -2,7 +2,7 @@ from distutils.core import setup
 
 version = "1.0.0"
 
-setup(name="googleplayapi",
+setup(name="googleplay-api",
       version=version,
       author="Emilien Girault",
       author_email="emilien.girault@gmail.com",
@@ -20,5 +20,7 @@ setup(name="googleplayapi",
         'list',
         'permissions',
         'search'
-      ]
+        ],
+      install_requires=['protobuf']
+
 )
